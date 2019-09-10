@@ -17,10 +17,10 @@ namespace ConsoleAppEmerytura
             Console.WriteLine("Podaj imie: ");
             string imie = Console.ReadLine();
             Console.WriteLine($"Witaj {imie}");
-       
-            Console.Write("Podaj wiek: ");
+
+            Console.WriteLine("Podaj wiek: ");
             int wiek = int.Parse(Console.ReadLine());
-            if (wiek < 67 )
+            if (wiek < 67)
             {
                 Console.WriteLine($"Zostało Ci {wiekEmerytalny - wiek} lat do emerytury");
             }
