@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = -3, y = 5;
+            int z = 0;
+            int u = x;
+            do
+            {
+                z += y;
+                u--;
+
+            } while (u !=0);
+            Console.WriteLine( z );
+      
+       
+  
+
+        }
+
+
+
+
+
+
+
+
+    }
+ }           
